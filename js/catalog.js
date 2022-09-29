@@ -14,8 +14,8 @@ function populateForm() {
   // <select>
   for (let i in Product.allProducts) {
 let option = document.createElement('option');
-option.value = Product.allProducts[i];
-option.textContent = Product.allProducts[i];
+option.value = Product.allProducts[i].name;
+option.textContent = Product.allProducts[i].name;
 selectElement.appendChild(option);
   }
 
@@ -39,6 +39,7 @@ event.preventDefault();
 // TODO: Add the selected item and quantity to the cart
 function addSelectedItemToCart() {
 const addselect = option.value;
+
 
 
 

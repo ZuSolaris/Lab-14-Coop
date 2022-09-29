@@ -21,7 +21,7 @@ function renderCart() {
 // TODO: Remove all of the rows (tr) in the cart table (tbody)
 function clearCart() {
   document.getElementById('cart');
-document.deleteElement('tr');
+document.deleteElement('cart');
 
 }
 
