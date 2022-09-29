@@ -15,6 +15,7 @@ Cart.prototype.addItem = function(product, quantity) {
 };
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Cart.prototype.saveToLocalStorage = function() {
 <<<<<<< HEAD
 
@@ -26,13 +27,19 @@ Cart.prototype.saveToLocalStorage = function() {
 Cart.prototype.saveToLocalStorage = function(){
 >>>>>>> e7dc089b64ed66f52e1ef36e003345337eb29963
 =======
+Cart.prototype.saveToLocalStorage = function(){
+>>>>>>> cf19e022748c0801fe86d42b96aadce8780c55b6
+=======
   let cartString = JSON.stringify(cart);
   localStorage.setItem('myCart', cartString);
   // TODO: Fill in this instance method to save the contents of the cart to localStorage
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 91cd1c08c26da309a55c8a0c2433dff4daa6602d
 =======
 >>>>>>> e7dc089b64ed66f52e1ef36e003345337eb29963
+=======
+>>>>>>> cf19e022748c0801fe86d42b96aadce8780c55b6
 };
 
 Cart.prototype.removeItem = function(item) {
