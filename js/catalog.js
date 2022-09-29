@@ -38,6 +38,16 @@ event.preventDefault();
 
 // TODO: Add the selected item and quantity to the cart
 function addSelectedItemToCart() {
+const addedItem = document.querySelectorAll(Product.allProducts);
+
+Product[i].allProducts.push(Cart);
+
+
+
+
+
+consolelog(addedItem);
+
 
   
   // TODO: suss out the item picked from the select list
