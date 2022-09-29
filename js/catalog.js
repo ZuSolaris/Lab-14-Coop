@@ -38,15 +38,14 @@ event.preventDefault();
 
 // TODO: Add the selected item and quantity to the cart
 function addSelectedItemToCart() {
-const addedItem = document.querySelectorAll(Product.allProducts);
-
-Product[i].allProducts.push(Cart);
+const addselect = option.value;
 
 
 
 
 
-consolelog(addedItem);
+
+consolelog(addselect);
 
 
   
@@ -56,7 +55,9 @@ consolelog(addedItem);
 }
 
 // TODO: Update the cart count in the header nav with the number of items in the Cart
-function updateCounter() { }
+function updateCounter(){
+
+}
 
 // TODO: As you add items into the cart, show them (item & quantity) in the cart preview div
 function updateCartPreview() {
