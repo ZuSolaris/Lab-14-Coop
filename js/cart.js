@@ -48,8 +48,8 @@ function showCart() {
 
 }
 
-function removeItemFromCart(event) {
-  document.documentElement('tr');
+function removeItemFromCart(event){
+  document.deleteElement('tr');
 
   // TODO: When a delete link is clicked, use cart.removeItem to remove the correct item
   // TODO: Save the cart back to local storage
