@@ -38,15 +38,14 @@ event.preventDefault();
 
 // TODO: Add the selected item and quantity to the cart
 function addSelectedItemToCart() {
-const addselect = option.value;
+this.event.target.select.value();
 
 
 
 
 
 
-
-consolelog(addselect);
+// consolelog(addselect);
 
 
   
